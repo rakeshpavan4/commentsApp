@@ -1,0 +1,63 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+}
+.app-heading {
+}
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+.comments-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.name-input {
+  height: 40px;
+  outline: none;
+  margin-bottom: 10px;
+}
+.comment-input {
+  outline: none;
+  margin-bottom: 10px;
+}
+.add-button {
+  outline: none;
+  cursor: pointer;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  min-width: 60px;
+  align-self: flex-start;
+}
+.image {
+  width: 280px;
+  height: 200px;
+}
+.comments-count {
+  color: #ffffff;
+  background-color: #0284c7;
+  border-radius: 3px;
+  margin-right: 4px;
+  margin-left: 10px;
+  padding-left: 4px;
+  padding-right: 5px;
+}
+.comments-list {
+  margin: 0px;
+  padding: 0px;
+}
